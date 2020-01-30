@@ -1,6 +1,24 @@
 # gohelpers
 Helper functions for golang projects
 
+## How to use
+
+```go
+package main
+
+import (
+    "fmt"
+    helpers "github.com/onebittech/gohelpers"
+)
+
+func main() {
+    helpers.ParallelIterator(10, func (i int) error {
+        fmt.Println(i)
+        return nil
+    })
+}
+```
+
 ## Mssql Helpers
 
 ```go
