@@ -1,5 +1,5 @@
 # gohelpers
-Helper functions for golang projecs
+Helper functions for golang projects
 
 ## Mssql Helpers
 
